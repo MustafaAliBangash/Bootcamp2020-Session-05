@@ -1,3 +1,4 @@
+import './logo.svg';
 import React, {useState} from 'react';
 import './App.css';
 import Parent from './Parent';
