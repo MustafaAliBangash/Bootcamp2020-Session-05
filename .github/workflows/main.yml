@@ -40,7 +40,9 @@ jobs:
         uses: Jaid/action-npm-install@v1.2.4
         with:
             version: 12
-
+          
+      - name: creating build
+        run: npm run build
       - name: Installing surge
         run: npm install -g surge
       - name: deploying on surge
