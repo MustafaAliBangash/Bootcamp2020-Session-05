@@ -29,6 +29,9 @@ jobs:
         uses: actions/setup-node@v2.1.2
         with:
           version: 12
+          cmd: install
+          
+
 
       # Runs a set of commands using the runners shell
      
